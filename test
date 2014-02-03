@@ -6,15 +6,16 @@ Added 5
 Added 6
 My name is john
 my age is 50
----------------------
-
------
 ))))))))))))))))))))))))))))
 hahaha
-
-----------
 
 from testing 2
 from testing 3
 a change from testing 3
+=======
+def coming_from_master():
+    pass
+
+MERGED ON TESTING3
+   
 
