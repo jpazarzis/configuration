@@ -8,3 +8,7 @@ My name is john
 my age is 50
 ---------------------
 
+def coming_from_master():
+    pass
+   
+
