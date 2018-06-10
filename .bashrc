@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+gecit# ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -113,27 +113,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=.:/usr/local/bin:$PATH LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH
-
-PATH=$PATH:/home/john/projects/tools
-
-export PATH=${PATH}:~/android-sdk-linux/tools
-export PATH=${PATH}:~/android-sdk-linux/platform-tools
-
 
 alias cd..='cd ..'
 alias cd~='cd ~'
-
-DEVELOPMENT_ROOT=~/development
-export DEVELOPMENT_ROOT
-
-#past performances root
-PP_ROOT=$DEVELOPMENT_ROOT/horse-racing//Documents/PastPerformances/BrisFiles
-export PP_ROOT
-
-#export PYTHONPATH=$PYTHONPATH:/home/john/development/alogatas/horse-racing:/
-
-export PYTHONPATH=$PYTHONPATH:/home/john/development/alogatas/horse-racing:/home/john/development/alogatas/horse-racing/race_info/handicapping_factors:/home/john/projects
+alias e='gvim'
+alias ..='cd ..'
 
 PS1='>'
 
